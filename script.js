@@ -15,3 +15,9 @@ document.getElementById("back").addEventListener("click", function(){
     let exp = calculation.textContent;
     calculation.textContent = exp.substring(0, exp.length -1);
 });
+
+document.getElementById("equal").addEventListener("click", function(){
+    let exp = calculation.textContent;
+    result.textContent = eval(exp);
+    calculation.textContent = result.textContent;
+});
