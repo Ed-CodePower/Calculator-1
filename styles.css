@@ -26,6 +26,7 @@ section{
 }
 
 .screen_Container{
+    height: 150px;
     text-align: end;
     padding: 17px;
     font-size: 30px;
