@@ -37,8 +37,5 @@ section{
 }
 
 .key_equal{
-    grid-row-start: 4;
-    grid-column-start: 4;
-    grid-row-end: span 2;
-    grid-column-end: 4;
+    grid-area: 4 / 4 / span 2 / 4;
 }
