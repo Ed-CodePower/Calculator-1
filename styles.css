@@ -21,9 +21,7 @@ section{
 
 /* Set styles for Screen display */
 .screen{
-    /* height: 150px; */
     background: #001E34;
-    /* margin: 20px; */
 }
 
 .screen_Container{
